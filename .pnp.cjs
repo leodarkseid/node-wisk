@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nestjs/core", "virtual:60611c34abfa5d0e50347b37b4bb5e03ea14ee083b8189b2eff7245d9921722a149efd7915b831cde12b7129e35797367ac607eeaddefad70edeb4071fb65a16#npm:9.3.9"],\
             ["@nestjs/platform-express", "virtual:60611c34abfa5d0e50347b37b4bb5e03ea14ee083b8189b2eff7245d9921722a149efd7915b831cde12b7129e35797367ac607eeaddefad70edeb4071fb65a16#npm:9.3.9"],\
             ["@nestjs/schematics", "virtual:0bb1b9f061408458ac4878fea829fc9443a3aabab27a132e4f534e02b1073a9171f5fcc6b45e9469bf7827fbb7ccf91e5b00b92c19fc8aa5458bf1642575728d#npm:9.0.4"],\
+            ["@nestjs/swagger", "virtual:60611c34abfa5d0e50347b37b4bb5e03ea14ee083b8189b2eff7245d9921722a149efd7915b831cde12b7129e35797367ac607eeaddefad70edeb4071fb65a16#npm:6.2.1"],\
             ["@nestjs/testing", "virtual:60611c34abfa5d0e50347b37b4bb5e03ea14ee083b8189b2eff7245d9921722a149efd7915b831cde12b7129e35797367ac607eeaddefad70edeb4071fb65a16#npm:9.3.9"],\
             ["@types/express", "npm:4.17.17"],\
             ["@types/jest", "npm:29.2.4"],\
@@ -1528,6 +1529,40 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@nestjs/mapped-types", [\
+        ["npm:1.2.2", {\
+          "packageLocation": "./.yarn/cache/@nestjs-mapped-types-npm-1.2.2-879ac81dac-85f295a147.zip/node_modules/@nestjs/mapped-types/",\
+          "packageDependencies": [\
+            ["@nestjs/mapped-types", "npm:1.2.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:fa4ac5be391ca49efb1d100a7d251fa0fe0a0e0178e3833d20d17db5cf5fa657b762bd565d1dde9a39d0ef89cfbe8d55284cd63e240b43284375f34c554932f6#npm:1.2.2", {\
+          "packageLocation": "./.yarn/__virtual__/@nestjs-mapped-types-virtual-63c39a67d0/0/cache/@nestjs-mapped-types-npm-1.2.2-879ac81dac-85f295a147.zip/node_modules/@nestjs/mapped-types/",\
+          "packageDependencies": [\
+            ["@nestjs/mapped-types", "virtual:fa4ac5be391ca49efb1d100a7d251fa0fe0a0e0178e3833d20d17db5cf5fa657b762bd565d1dde9a39d0ef89cfbe8d55284cd63e240b43284375f34c554932f6#npm:1.2.2"],\
+            ["@nestjs/common", "virtual:60611c34abfa5d0e50347b37b4bb5e03ea14ee083b8189b2eff7245d9921722a149efd7915b831cde12b7129e35797367ac607eeaddefad70edeb4071fb65a16#npm:9.3.9"],\
+            ["@types/class-transformer", null],\
+            ["@types/class-validator", null],\
+            ["@types/nestjs__common", null],\
+            ["@types/reflect-metadata", null],\
+            ["class-transformer", null],\
+            ["class-validator", null],\
+            ["reflect-metadata", "npm:0.1.13"]\
+          ],\
+          "packagePeers": [\
+            "@nestjs/common",\
+            "@types/class-transformer",\
+            "@types/class-validator",\
+            "@types/nestjs__common",\
+            "@types/reflect-metadata",\
+            "class-transformer",\
+            "class-validator",\
+            "reflect-metadata"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@nestjs/platform-express", [\
         ["npm:9.3.9", {\
           "packageLocation": "./.yarn/cache/@nestjs-platform-express-npm-9.3.9-d7a3e837ab-26b41de9de.zip/node_modules/@nestjs/platform-express/",\
@@ -1582,6 +1617,53 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@types/typescript",\
             "typescript"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@nestjs/swagger", [\
+        ["npm:6.2.1", {\
+          "packageLocation": "./.yarn/cache/@nestjs-swagger-npm-6.2.1-c0460a6ba1-505d39dcfa.zip/node_modules/@nestjs/swagger/",\
+          "packageDependencies": [\
+            ["@nestjs/swagger", "npm:6.2.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:60611c34abfa5d0e50347b37b4bb5e03ea14ee083b8189b2eff7245d9921722a149efd7915b831cde12b7129e35797367ac607eeaddefad70edeb4071fb65a16#npm:6.2.1", {\
+          "packageLocation": "./.yarn/__virtual__/@nestjs-swagger-virtual-fa4ac5be39/0/cache/@nestjs-swagger-npm-6.2.1-c0460a6ba1-505d39dcfa.zip/node_modules/@nestjs/swagger/",\
+          "packageDependencies": [\
+            ["@nestjs/swagger", "virtual:60611c34abfa5d0e50347b37b4bb5e03ea14ee083b8189b2eff7245d9921722a149efd7915b831cde12b7129e35797367ac607eeaddefad70edeb4071fb65a16#npm:6.2.1"],\
+            ["@fastify/static", null],\
+            ["@nestjs/common", "virtual:60611c34abfa5d0e50347b37b4bb5e03ea14ee083b8189b2eff7245d9921722a149efd7915b831cde12b7129e35797367ac607eeaddefad70edeb4071fb65a16#npm:9.3.9"],\
+            ["@nestjs/core", "virtual:60611c34abfa5d0e50347b37b4bb5e03ea14ee083b8189b2eff7245d9921722a149efd7915b831cde12b7129e35797367ac607eeaddefad70edeb4071fb65a16#npm:9.3.9"],\
+            ["@nestjs/mapped-types", "virtual:fa4ac5be391ca49efb1d100a7d251fa0fe0a0e0178e3833d20d17db5cf5fa657b762bd565d1dde9a39d0ef89cfbe8d55284cd63e240b43284375f34c554932f6#npm:1.2.2"],\
+            ["@types/class-transformer", null],\
+            ["@types/class-validator", null],\
+            ["@types/fastify__static", null],\
+            ["@types/nestjs__common", null],\
+            ["@types/nestjs__core", null],\
+            ["@types/reflect-metadata", null],\
+            ["class-transformer", null],\
+            ["class-validator", null],\
+            ["js-yaml", "npm:4.1.0"],\
+            ["lodash", "npm:4.17.21"],\
+            ["path-to-regexp", "npm:3.2.0"],\
+            ["reflect-metadata", "npm:0.1.13"],\
+            ["swagger-ui-dist", "npm:4.15.5"]\
+          ],\
+          "packagePeers": [\
+            "@fastify/static",\
+            "@nestjs/common",\
+            "@nestjs/core",\
+            "@types/class-transformer",\
+            "@types/class-validator",\
+            "@types/fastify__static",\
+            "@types/nestjs__common",\
+            "@types/nestjs__core",\
+            "@types/reflect-metadata",\
+            "class-transformer",\
+            "class-validator",\
+            "reflect-metadata"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6989,6 +7071,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nestjs/core", "virtual:60611c34abfa5d0e50347b37b4bb5e03ea14ee083b8189b2eff7245d9921722a149efd7915b831cde12b7129e35797367ac607eeaddefad70edeb4071fb65a16#npm:9.3.9"],\
             ["@nestjs/platform-express", "virtual:60611c34abfa5d0e50347b37b4bb5e03ea14ee083b8189b2eff7245d9921722a149efd7915b831cde12b7129e35797367ac607eeaddefad70edeb4071fb65a16#npm:9.3.9"],\
             ["@nestjs/schematics", "virtual:0bb1b9f061408458ac4878fea829fc9443a3aabab27a132e4f534e02b1073a9171f5fcc6b45e9469bf7827fbb7ccf91e5b00b92c19fc8aa5458bf1642575728d#npm:9.0.4"],\
+            ["@nestjs/swagger", "virtual:60611c34abfa5d0e50347b37b4bb5e03ea14ee083b8189b2eff7245d9921722a149efd7915b831cde12b7129e35797367ac607eeaddefad70edeb4071fb65a16#npm:6.2.1"],\
             ["@nestjs/testing", "virtual:60611c34abfa5d0e50347b37b4bb5e03ea14ee083b8189b2eff7245d9921722a149efd7915b831cde12b7129e35797367ac607eeaddefad70edeb4071fb65a16#npm:9.3.9"],\
             ["@types/express", "npm:4.17.17"],\
             ["@types/jest", "npm:29.2.4"],\
@@ -7835,6 +7918,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/supports-preserve-symlinks-flag-npm-1.0.0-f17c4d0028-53b1e247e6.zip/node_modules/supports-preserve-symlinks-flag/",\
           "packageDependencies": [\
             ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["swagger-ui-dist", [\
+        ["npm:4.15.5", {\
+          "packageLocation": "./.yarn/cache/swagger-ui-dist-npm-4.15.5-9e0c8d56dd-b032ecc124.zip/node_modules/swagger-ui-dist/",\
+          "packageDependencies": [\
+            ["swagger-ui-dist", "npm:4.15.5"]\
           ],\
           "linkType": "HARD"\
         }]\
